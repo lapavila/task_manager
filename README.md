@@ -1,4 +1,4 @@
-task_manager
+Task Manager
 ============
 
 Task Manager App (sample1)
@@ -11,12 +11,20 @@ http://www.novatec.com.br/livros/rubyonrails2/
 
 Alguns erros de código corrigidos:
 
-página 73:
-  javascript render recebe o parametro de layout incorreto o que impede a abertura do dialog:
-  
-  ao invéz de:
-    $("<div/>").attr("id", "dialogFrame").append($("<%= j render file: 'tasks/edit.html.erb', layout: false %>")).dialog({autoOpen: true});
-  usear:
-    $("<div/>").attr("id", "dialogFrame").append($("<%= j render file: 'tasks/edit.html.erb', layout: nil %>")).dialog({autoOpen: true});
-    
-  isso vale para create.js.erb e para update.js.erb
+<dl>
+<dt><strong>página 73: </strong></dt>
+<dd>
+javascript render recebe o parametro de layout incorreto o que impede a abertura do dialog:
+<ul>
+<li>
+  <strong>ao invéz de:</strong>
+    (...).append($("&lt;%= j render file: 'tasks/edit.html.erb', layout: <strong>false</strong> %&gt;")).(...);
+</li>
+<li>
+  <strong>usar:</strong>
+    (...).append($("&lt;%= j render file: 'tasks/edit.html.erb', layout: <strong>nil</strong> %&gt;")).(...);
+</li>
+</ul>
+  isso vale para <stong>create.js.erb</strong> e para <strong>update.js.erb</strong>
+</dd>
+</dl>
