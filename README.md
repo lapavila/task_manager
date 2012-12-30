@@ -36,7 +36,7 @@ Alguns erros de código corrigidos:
 <pre>
 $("div#dialogFrame").remove();
 $("section table tbody").children().remove();
-$("section table tbody").append("<%= j render @tasks %>");
+$("section table tbody").append("&lt;%= j render @tasks %&gt;");
 </pre>
             </li>
         </ul>
