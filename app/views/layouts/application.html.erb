@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Simple Task Manager</title>
+	  <%= stylesheet_link_tag    "blueprint/screen", media: 'screen' %>
+	  <%= stylesheet_link_tag    "blueprint/print", media: 'print' %>
+	  <%= stylesheet_link_tag    "application" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+	  <%= stylesheet_link_tag "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/overcast/jquery-ui.css" %>
+	</head>
+	<body>
+		<div id="container" class="container">
+			<header class="span-24 rounded">
+				<h1>Simple Task Manager</h1>
+			</header>
+			<section id="content" class="span-24 rounded">
+				<%= yield %>
+			</section>
+			<footer class="span-24 rounded">
+				Exemplo do Livro de Rails
+			</footer>
+		</div>
+		<div/>
+	</body>
+</html>
