@@ -5,10 +5,14 @@ Task Manager App (sample1)
 
 Projeto de acompanhamento do Livro:
 
-Ruby on Rails - Desenvolvimento Fácil e Rápido de Aplicações Web (http://www.novatec.com.br/livros/rubyonrails2/)
+Ruby on Rails - Desenvolvimento Fácil e Rápido de Aplicações Web (http://www.novatec.com.br/livros/rubyonrails2/)<br/>
 de Rodrigo Urubatan (http://www.urubatan.com.br)
 
+Todos os direitos da obra são reservados ao autor (Rodrigo Urubatan) e a Editora (Novatec)
 
+Este repositório tem o objetivo de compartilhar o acompanhamento dos exercícios apresentados no livro.
+
+<!--
 Alguns erros de código corrigidos:
 
 <dl>
@@ -42,3 +46,5 @@ $("section table tbody").append("&lt;%= j render @tasks %&gt;");
         </ul>
     </dd>
 </dl>
+
+-->
